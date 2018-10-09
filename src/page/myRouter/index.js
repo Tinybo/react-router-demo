@@ -15,7 +15,7 @@ class MyRouter extends Component {
     render () {
         return (
             <div className="myRouterContainer">
-                <Link to="/">Home</Link>
+                <IndexLink to="/">Home</IndexLink>
                 <Link to="/music">Music</Link>
                 <Link to="/about">About</Link>
 
